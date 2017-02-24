@@ -19,6 +19,10 @@
 	margin: 3px 0;
 }
 
+.exchange-title {
+	color: #888;
+}
+
 .list-exchange .list-exchange-item {
 	border-bottom: 1px solid #e5e5e5;
 	padding: 20px;
@@ -35,17 +39,19 @@
 }
 
 .list-exchange .list-exchange-item .item-money span,
-.list-exchange .list-exchange-item .item-diamond span{
+.list-exchange .list-exchange-item .item-diamond span {
 	display: inline-block;
 	font-size: 16px;
 	line-height: 36px;
 }
-.list-exchange .list-exchange-item .item-diamond span{
+
+.list-exchange .list-exchange-item .item-diamond span {
 	font-size: 14px;
+	color: #888
 }
 
 .list-exchange .list-exchange-item .item-money img,
-.list-exchange .list-exchange-item .item-diamond img{
+.list-exchange .list-exchange-item .item-diamond img {
 	max-height: 30px;
 	margin: 3px 0;
 }
