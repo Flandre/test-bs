@@ -1,0 +1,33 @@
+.header {
+	background: #36474e;
+	font-size: 16px;
+	color: #fff;
+	padding: 0px;
+}
+
+.main {
+	padding: 0 40px;
+}
+
+.info-group {
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+}
+
+.info-group.last {
+	border: 0;
+}
+
+.info-group .center-text {
+	text-align: center;
+}
+
+.info-group .title {
+	font-size: 16px;
+	margin: 3px 0;
+}
+
+.info-group .info {
+  font-size: 30px;
+	margin: 3px 0;
+}
