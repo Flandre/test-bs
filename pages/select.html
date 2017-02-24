@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+  <link href="../bs/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="select.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <a href="#">
+      <img src="img/back.jpg">
+    </a>
+    <span>我的收入</span>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="center-block top-icon">
+        <img src="img/diamond.jpg" class="img-responsive">
+      </div>
+    </div>
+    <div class="col-xs-12 info-group">
+      <p class="info text-center">955799</p>
+      <p class="title text-center">剩余水晶</p>
+    </div>
+  </div>
+  <div class="row">
+    <h3 class="text-center">取款</h3>
+  </div>
+  <div class="row list-exchange">
+    <div class="list-exchange-item col-xs-12">
+      <div class="row">
+        <div class="item-money col-xs-6">
+          <img src="img/money.jpg">
+          <span>100 USD</span>
+        </div>
+        <div class="item-diamond col-xs-6">
+          <div class="diamond-box">
+            <img src="img/diamond.jpg">
+            <span>42000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list-exchange-item col-xs-12">
+      <div class="row">
+        <div class="item-money col-xs-6">
+          <img src="img/money.jpg">
+          <span>200 USD</span>
+        </div>
+        <div class="item-diamond col-xs-6">
+          <div class="diamond-box">
+            <img src="img/diamond.jpg">
+            <span>78000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list-exchange-item col-xs-12">
+      <div class="row">
+        <div class="item-money col-xs-6">
+          <img src="img/money.jpg">
+          <span>400 USD</span>
+        </div>
+        <div class="item-diamond col-xs-6">
+          <div class="diamond-box">
+            <img src="img/diamond.jpg">
+            <span>150000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list-exchange-item col-xs-12">
+      <div class="row">
+        <div class="item-money col-xs-6">
+          <img src="img/money.jpg">
+          <span>600 USD</span>
+        </div>
+        <div class="item-diamond col-xs-6">
+          <div class="diamond-box">
+            <img src="img/diamond.jpg">
+            <span>220000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../jquery/jquery-3.1.1.js"></script>
+<script>
+$('.list-exchange-item').on('click', function(){
+  $(this).addClass('active').siblings().removeClass('active')
+})
+</script>
+</body>
+</html>
