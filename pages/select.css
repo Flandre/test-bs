@@ -55,3 +55,24 @@
 	max-height: 30px;
 	margin: 3px 0;
 }
+
+/* modal */
+#payModal .modal-body img {
+	width: 100%;
+	height: auto;
+}
+
+#payModal .row {
+	margin-bottom: 12px;
+}
+
+#paypalEmail {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#paypalEmail:focus {
+	box-shadow: none;
+}
