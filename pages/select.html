@@ -118,7 +118,7 @@
 <script>
   $('.list-exchange-item').on('click', function(){
     $(this).addClass('active').siblings().removeClass('active');
-    $('#modalTest .modal-body p').html($(this).find('.item-money'));
+    $('#modalTest .modal-body p').text($(this).find('.item-money span').text());
     $('#modalTest').modal('show')
   });
 
